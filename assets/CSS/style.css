@@ -1,0 +1,291 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  background-color: lavender;
+}
+
+main {
+  min-height: 100vh;
+  width: 100vw;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 60px;
+  font-family: fantasy;
+  font-weight: bold;
+  /* text-shadow: 0 0 2px plum; */
+  color: plum;
+  text-align: center;
+  padding: 30px;
+}
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: fantasy;
+  color: lavender;
+  line-height: 30px;
+}
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: fantasy;
+  color: #73295c;
+  line-height: 30px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: cursive;
+  color: #73295c;
+  padding: 10px 0;
+}
+section {
+  height: 600px;
+  border: 1px solid green;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* ---HEADER-------------- */
+header {
+  height: 150px;
+  padding-top: 20px;
+}
+header > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+header > div > div:first-child {
+  transform: skew(-10deg) rotate(-12deg);
+  display: flex;
+  align-items: center;
+}
+header > div > div:first-child p {
+  font-size: 36px;
+  text-shadow: 0 0 5px #6c6b6b;
+  color: white;
+}
+header a {
+  color: #73295c;
+  text-decoration: none;
+}
+.my-photo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: #fff;
+}
+/* ---section-me---------- */
+.about-me {
+  background-image: url("../IMGS/A-Fond-programmation-informatique-codage-dev.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  display: flex;
+}
+.about-me > div {
+  /* border: 1px solid white; */
+  flex: 1;
+}
+
+.about-me ul {
+  list-style-type: "\1F44D";
+  /* padding: 10px 0; */
+}
+.about-me li {
+  margin: 0 0 10px 20px;
+}
+
+.about-me li p {
+  color: #42acff;
+  font-style: italic;
+  margin-left: 20px;
+}
+.about-me p {
+  color: #d1478e;
+}
+
+.about-me > div {
+  padding: 50px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.title h2 {
+  width: 100%;
+}
+.presentation {
+  height: calc(100% - 50px);
+  width: calc(100% - 50px);
+  border: 1px solid lightsalmon;
+  padding: 20px 40px;
+  text-align: justify;
+  line-height: 20px;
+  background-color: #fff;
+  border-radius: 40px;
+}
+.presentation span {
+  color: #d1478e;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* ---section-projects---------- */
+.projects {
+  height: fit-content;
+  background-color: #fff;
+}
+.projects > div {
+  flex: 1;
+}
+.projects > div > ul {
+  padding: 10px 0;
+}
+.projects > div > ul > li {
+  /* border: 1px solid red; */
+  box-shadow: 0 0 5px #bbb;
+  border-radius: 10px;
+  margin: 30px 20px;
+  width: calc(100% - 40px);
+  display: flex;
+}
+.projects > div > ul > li > div {
+  /* border: 1px solid blue; */
+  flex: 1;
+  padding: 20px;
+}
+.description ul {
+  list-style-type: circle;
+}
+.description li {
+  margin-left: 20px;
+}
+.projects h5 {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.projects img {
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #bbb;
+}
+.div-img {
+  display: flex;
+  justify-content: center;
+}
+/* ---section-education---------- */
+.education {
+  padding: 10px 20px 20px 20px;
+  background-color: #fff;
+  height: fit-content;
+  background-image: url("../IMGS/A-fond-gris-clair.jpg");
+  background-repeat: no-repeat;
+}
+.education p {
+  font-size: 16px;
+}
+.education span {
+  font-weight: bold;
+}
+.education h5 {
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration: underline;
+  color: red;
+  margin: 20px 0;
+  padding-bottom: 10px;
+}
+.education ul {
+  list-style-type: "\2714";
+  margin-left: 20px;
+}
+.education li,
+.education p {
+  margin-bottom: 10px;
+}
+.education li::marker {
+  color: green;
+}
+.education li p {
+  margin-left: 10px;
+}
+.skills {
+  display: flex;
+  height: 40%;
+}
+.skills > div {
+  /* border: 1px solid orange; */
+  width: 100%;
+}
+.logo {
+  /* border: 1px solid orange; */
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.logo img {
+  height: 50px;
+  margin: 10px 30px;
+  flex-shrink: 0;
+}
+/* ---section-contact---------- */
+.contact {
+  background-color: #fff;
+  font-size: 16px;
+  height: fit-content;
+  padding: 20px;
+}
+.contact img {
+  height: 20px;
+  width: 20px;
+}
+.contact a {
+  color: black;
+  text-decoration: none;
+}
+.contact nav {
+  margin-top: 20px;
+}
+.contact nav > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+/* ---FOOTER------------------- */
+footer {
+  height: 70px;
+}
+footer > div {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  font-size: 12px;
+}
+footer img {
+  height: 30px;
+  width: 30px;
+}
+footer a {
+  font-weight: bold;
+  text-decoration: none;
+}
