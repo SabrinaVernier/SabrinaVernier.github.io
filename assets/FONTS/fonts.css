@@ -1,0 +1,108 @@
+/* <weight>: Use a value from 400 to 700
+<uniquifier>: Use a unique and descriptive class name */
+
+.dancing-script {
+  font-family: "Dancing Script", cursive, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.parisienne-regular {
+  font-family: "Parisienne", cursive, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.akaya-kanadaka-regular {
+  font-family: "Akaya Kanadaka", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.style-script-regular {
+  font-family: "Style Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 
+<!-- <section class="projects" id="projects">
+<div>
+<h3>✨ Mes Projets ✨</h3>
+<ul>
+  <li>
+    <div class="description">
+      <h4>
+        EasyJet =>
+        <a href="http://net-jet.netlify.app/" target="_blank"
+          >net-jet</a
+        >
+      </h4>
+      <h5>Projet Front-End</h5>
+      <ul>
+        <li>Caroussel de photos</li>
+      </ul>
+    </div>
+
+    <div class="div-img">
+      <img src="./assets/IMGS/B-net-jet.png" alt="" />
+    </div>
+  </li>
+
+  <li>
+    <div class="description">
+      <h4>
+        Leboncoin =>
+        <a href="https://net-boncoin.netlify.app/" target="_blank"
+          >net-boncoin</a
+        >
+      </h4>
+      <h5>Projet Full-Stack</h5>
+      <ul>
+        <li>Inscription / connexion</li>
+        <li>Récupération de données</li>
+        <li>Publication et suppression d'annonces</li>
+        <li>Affichage du profil</li>
+        <li>Barre de recherche et de tri</li>
+        <li>Paiement</li>
+        <li>téléchargement d'images</li>
+      </ul>
+    </div>
+
+    <div class="div-img">
+      <img
+        src="./assets/IMGS/B-net-boncoin.png"
+        alt="net-boncoin"
+      />
+    </div>
+  </li>
+
+  <li>
+    <div class="description">
+      <h4>
+        Les Grands Buffets =>
+        <a href="https://net-buffet.netlify.app" target="_blank"
+          >net-buffet</a
+        >
+      </h4>
+      <h5>Projet Full-Stack</h5>
+      <ul>
+        <li>Inscription / connexion</li>
+        <li>Récupération de données</li>
+        <li>
+          Réservation sur 6 salles avec décrémentation du nombre de
+          places sur la salle sélectionnée
+        </li>
+        <li>Paiement</li>
+        <li>Caroussel d'images</li>
+      </ul>
+    </div>
+
+    <div class="div-img">
+      <img src="./assets/IMGS/B-net-buffet.png" alt="net-buffet" />
+    </div>
+  </li>
+</ul>
+</div>
+</section> --> */

@@ -3,7 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./assets/CSS/reset.css" />
     <link rel="stylesheet" href="./assets/CSS/style.css" />
   </head>
@@ -11,32 +30,34 @@
     <header>
       <div class="container">
         <div>
-          <p>Sabrina Vernier</p>
+          <h1>My Portfolio</h1>
+          <h1 class="my-name">Sabrina Vernier</h1>
         </div>
         <nav>
-          <a href="#about-me">À propos de moi - </a>
-          <a href="#projects">Mes Projets - </a>
-          <a href="#education">Mon Parcours - </a>
+          <a href="#about-me">À propos de moi</a>
+          <a href="#projects">Mes Projets</a>
+          <a href="#education">Mon Parcours</a>
           <a href="#contact">Contactez-moi</a>
         </nav>
-
-        <div>
-          <img
-            class="my-photo"
-            src="./assets/IMGS/Photo profil Sab avec arrière-plan supprimé.png"
-            alt="photo moi"
-          />
-        </div>
       </div>
     </header>
     <main>
-      <h1>My Portfolio</h1>
+      <!-- <h1>My Portfolio</h1> -->
 
       <div class="container">
         <section class="about-me" id="about-me">
           <div class="title">
-            <h2>De la polyvalence...</h2>
-            <h2>À la passion du web...</h2>
+            <div>
+              <img
+                class="my-photo"
+                src="./assets/IMGS/Photo profil Sab avec arrière-plan supprimé.png"
+                alt="photo moi"
+              />
+            </div>
+            <div>
+              <h2>De la polyvalence . . .</h2>
+              <h2>À la passion du web . . .</h2>
+            </div>
           </div>
 
           <div class="text">
@@ -92,80 +113,88 @@
         <section class="projects" id="projects">
           <div>
             <h3>✨ Mes Projets ✨</h3>
-            <ul>
-              <li>
-                <div class="description">
-                  <h4>
-                    EasyJet :
-                    <a href="http://net-jet.netlify.app/" target="_blank"
-                      >net-jet</a
-                    >
-                  </h4>
-                  <h5>Projet Front-End</h5>
-                  <ul>
-                    <li>Caroussel de photos</li>
-                  </ul>
+            <div class="sites-cube">
+              <div class="wrap container">
+                <div class="cube">
+                  <div class="front">
+                    <img src="./assets/IMGS/B-net-jet.png" alt="" />
+                  </div>
+                  <div class="back">
+                    <img src="./assets/IMGS/B-net-buffet.png" alt="" />
+                  </div>
+                  <div class="top">Hello</div>
+                  <div class="bottom">World</div>
+                  <div class="left">
+                    <img src="./assets/IMGS/B-net-boncoin.png" alt="" />
+                  </div>
+                  <div class="right">
+                    <img src="./assets/IMGS/capture-portfolio.png" alt="" />
+                  </div>
                 </div>
+              </div>
+            </div>
 
-                <div class="div-img">
-                  <img src="./assets/IMGS/B-net-jet.png" alt="" />
-                </div>
-              </li>
+            <div>
+              <ul>
+                <li>
+                  <div class="description">
+                    <h4>
+                      EasyJet ===>
+                      <a href="http://net-jet.netlify.app/" target="_blank"
+                        >net-jet</a
+                      >
+                    </h4>
+                    <h5>Projet Front-End</h5>
+                    <ul>
+                      <li>Caroussel de photos</li>
+                    </ul>
+                  </div>
+                </li>
 
-              <li>
-                <div class="description">
-                  <h4>
-                    Leboncoin :
-                    <a href="https://net-boncoin.netlify.app/" target="_blank"
-                      >net-boncoin</a
-                    >
-                  </h4>
-                  <h5>Projet Full-Stack</h5>
-                  <ul>
-                    <li>Inscription / connexion</li>
-                    <li>Récupération de données</li>
-                    <li>Publication et suppression d'annonces</li>
-                    <li>Affichage du profil</li>
-                    <li>Barre de recherche et de tri</li>
-                    <li>Paiement</li>
-                    <li>téléchargement d'images</li>
-                  </ul>
-                </div>
+                <li>
+                  <div class="description description2">
+                    <h4>
+                      Leboncoin ===>
+                      <a href="https://net-boncoin.netlify.app/" target="_blank"
+                        >net-boncoin</a
+                      >
+                    </h4>
+                    <h5>Projet Full-Stack</h5>
+                    <ul>
+                      <li>Inscription / connexion</li>
+                      <li>Récupération de données</li>
+                      <li>Publication et suppression d'annonces</li>
+                      <li>Affichage du profil</li>
+                      <li>Barre de recherche et de tri</li>
+                      <li>Paiement</li>
+                      <li>téléchargement d'images</li>
+                    </ul>
+                  </div>
+                </li>
 
-                <div class="div-img">
-                  <img
-                    src="./assets/IMGS/B-net-boncoin.png"
-                    alt="net-boncoin"
-                  />
-                </div>
-              </li>
-
-              <li>
-                <div class="description">
-                  <h4>
-                    Les Grands Buffets :
-                    <a href="https://net-buffet.netlify.app" target="_blank"
-                      >net-buffet</a
-                    >
-                  </h4>
-                  <h5>Projet Full-Stack</h5>
-                  <ul>
-                    <li>Inscription / connexion</li>
-                    <li>Récupération de données</li>
-                    <li>
-                      Réservation sur 6 salles avec décrémentation du nombre de
-                      places sur la salle sélectionnée
-                    </li>
-                    <li>Paiement</li>
-                    <li></li>
-                  </ul>
-                </div>
-
-                <div class="div-img">
-                  <img src="./assets/IMGS/B-net-buffet.png" alt="net-buffet" />
-                </div>
-              </li>
-            </ul>
+                <li>
+                  <div class="description">
+                    <h4>
+                      Les Grands Buffets ===>
+                      <a href="https://net-buffet.netlify.app" target="_blank"
+                        >net-buffet</a
+                      >
+                    </h4>
+                    <h5>Projet Full-Stack</h5>
+                    <ul>
+                      <li>Inscription / connexion</li>
+                      <li>Récupération de données</li>
+                      <li>
+                        Réservation sur 6 salles avec décrémentation du nombre
+                        de places sur la salle sélectionnée
+                      </li>
+                      <li>Paiement</li>
+                      <li>Caroussel d'images</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
 
@@ -176,8 +205,8 @@
             <div>
               <h5>Formation</h5>
               <p>
-                <span>2024 - 2025</span> : "Développement Web et Web mobile" à
-                l'école
+                <strong>2024 - 2025</strong> : "Développement Web et Web mobile"
+                à l'école
                 <a href="https://www.lereacteur.io/" target="_blank">
                   Le Reacteur</a
                 >
@@ -188,14 +217,29 @@
               <div>
                 <h5>Technologies utilisées</h5>
                 <ul>
-                  <li><p>Language : Javascript</p></li>
-                  <li><p>Intégration HTML5 et CSS3</p></li>
-                  <li><p>Framework : Vue.js</p></li>
-                  <li><p>Backend : Strapi</p></li>
-                  <li><p>Base de données : PostgreSQL</p></li>
-                  <li><p>Versionnement : Git, GitHub</p></li>
                   <li>
-                    <p>Hébergement : Netlify(frontend) & Northflank(backend)</p>
+                    <p>Language => <span>Javascript</span></p>
+                  </li>
+                  <li>
+                    <p>Intégration => <span>HTML5 et CSS3</span></p>
+                  </li>
+                  <li>
+                    <p>Framework => <span>Vue.js</span></p>
+                  </li>
+                  <li>
+                    <p>Backend => <span>Strapi</span></p>
+                  </li>
+                  <li>
+                    <p>Base de données => <span>PostgreSQL</span></p>
+                  </li>
+                  <li>
+                    <p>Versionnement => <span>Git, GitHub</span></p>
+                  </li>
+                  <li>
+                    <p>
+                      Hébergement => <span>Netlify</span>(frontend) &
+                      <span>Northflank</span>(backend)
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -222,30 +266,43 @@
         </section>
 
         <section class="contact" id="contact">
-          <h3>✨ Me Contacter ✨</h3>
-          <nav>
-            <div>
-              <img
-                src="./assets/IMGS/Logo/logo-arobase-noir.png"
-                alt="arobase"
-              />mollyfou13@gmail.com
-            </div>
-            <div>
-              <img src="./assets/IMGS/Logo/logo-linkedin2.png" alt="linkedin" />
-              <a
-                href="https://www.linkedin.com/in/sabrina-vernier-6634a9303/"
-                target="_blank"
-                >/in/sabrina-vernier</a
-              >
-            </div>
-            <div>
-              <img src="./assets/IMGS/Logo/github.png" alt="github" />
-              <a href="https://github.com/SabrinaVernier" target="_blank"
-                >/SabrinaVernier</a
-              >
-            </div>
-          </nav>
+          <div>
+            <h3>✨ Me Contacter ✨</h3>
+
+            <nav>
+              <div>
+                <img
+                  src="./assets/IMGS/Logo/logo-arobase-noir.png"
+                  alt="arobase"
+                />
+                <p>mollyfou13@gmail.com</p>
+              </div>
+
+              <div>
+                <img
+                  src="./assets/IMGS/Logo/logo-linkedin2.png"
+                  alt="linkedin"
+                />
+                <a
+                  href="https://www.linkedin.com/in/sabrina-vernier-6634a9303/"
+                  target="_blank"
+                  >/in/sabrina-vernier</a
+                >
+              </div>
+
+              <div>
+                <img src="./assets/IMGS/Logo/github.png" alt="github" />
+                <a href="https://github.com/SabrinaVernier" target="_blank"
+                  >/SabrinaVernier</a
+                >
+              </div>
+            </nav>
+          </div>
         </section>
+
+        <!-- <section class="test">
+         
+        </section> -->
       </div>
     </main>
     <footer>
