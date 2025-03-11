@@ -211,19 +211,7 @@ main {
 .projects > div > ul {
   padding: 10px 0;
 }
-/* .projects > div > ul > li {
-  border: 1px solid red;
-  box-shadow: 0 0 5px var(--shadow);
-  border-radius: 10px;
-  margin: 30px 20px;
-  width: calc(100% - 40px);
-  display: flex;
-} */
-/* .projects > div > ul > li > div {
-  border: 1px solid blue;
-  flex: 1;
-  padding: 20px;
-} */
+
 .description ul {
   list-style-type: circle;
 }
@@ -240,39 +228,24 @@ main {
   font-weight: bold;
   margin-bottom: 10px;
 }
-/* .projects img {
-  height: 200px;
-  width: 300px;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0 0 5px var(--shadow);
-}
-.div-img {
-  display: flex;
-  justify-content: center;
-} */
 
 /* ---------TEST------------ */
 .projects > div > ul {
   display: flex;
 }
 .projects > div > div > ul > li {
-  /* border: 1px solid red; */
   box-shadow: 0 0 5px var(--shadow);
   border-radius: 10px;
   margin: 20px 20px;
   padding: 0 40px 20px 20px;
-  /* width: calc(100% - 40px); */
   width: fit-content;
   display: flex;
 }
 .projects > div > ul > li > div {
-  /* border: 1px solid blue; */
   flex: 1;
   padding: 20px;
 }
 .sites-cube {
-  /* height: 100px; */
   padding: 50px 0 0 700px;
 }
 /* ---------------------- */
@@ -326,11 +299,9 @@ main {
   height: 40%;
 }
 .skills > div {
-  /* border: 1px solid orange; */
   width: 100%;
 }
 .logo {
-  /* border: 1px solid orange; */
   padding-top: 60px;
   display: flex;
   justify-content: space-between;
@@ -359,7 +330,6 @@ main {
 
 /* ---section-contact---------- */
 .contact {
-  /* background-color: #fff; */
   background-image: url("../IMGS/A-fond-binaire.jpg");
   background-size: contain;
   background-position: bottom;
@@ -421,14 +391,12 @@ footer a {
 /* ---CUBE--- */
 
 .wrap {
-  /* border: 1px solid blue; */
   perspective: 800px;
   perspective-origin: 50% -30px;
   /* perspective-origin: 50% 100px; */
   /* perspective-origin: 50% 300px; */
 }
 .cube {
-  /* border: 1px solid green; */
   position: relative;
   width: 200px;
   transform-style: preserve-3d;
@@ -477,14 +445,15 @@ footer a {
   }
 }
 
-/* .cube {
-  animation: spin 5s infinite linear;
-} */
+.cube {
+  animation: spin 20s infinite linear;
+}
 
 /* .cube {
   animation: spin 5s 1 linear;
 } */
-.cube:hover {
-  animation: spin 3s 1 linear;
+/* .cube:hover {
+  animation: spin 5s 1 linear;
+  rotate: y 360deg;
   scale: 1.2;
-}
+} */
