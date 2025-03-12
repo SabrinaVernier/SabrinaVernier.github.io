@@ -38,11 +38,6 @@
   margin-left: 20px;
 }
 
-.education li,
-.education p {
-  margin-bottom: 10px;
-}
-
 .education li::marker {
   color: green;
 }
@@ -54,6 +49,7 @@
 .skills {
   display: flex;
   height: 40%;
+  line-height: 22px;
 }
 
 .skills > div {

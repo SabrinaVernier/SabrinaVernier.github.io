@@ -11,5 +11,8 @@
 /* IMPORT-RESPONSIVE-CSS--------------- */
 
 @import "./breakpoint-1250.css" (max-width: 1250px);
+@import "./breakpoint-1000.css" (max-width: 1000px);
+@import "./breakpoint-800.css" (max-width: 800px);
+@import "./breakpoint-500.css" (max-width: 500px);
 
 /* ---------------------- */

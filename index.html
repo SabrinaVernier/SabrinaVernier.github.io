@@ -24,20 +24,31 @@
     />
 
     <link rel="stylesheet" href="./assets/CSS/reset.css" />
+    <script
+      src="https://kit.fontawesome.com/72f5baab3b.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./assets/CSS/style.css" />
   </head>
   <body>
     <header>
       <div class="container">
-        <div>
+        <div class="title">
           <h1>My Portfolio</h1>
           <h1 class="my-name">Sabrina Vernier</h1>
         </div>
-        <nav>
+        <nav class="hidden-800">
           <a href="#about-me">À propos de moi</a>
           <a href="#projects">Mes Projets</a>
           <a href="#education">Mon Parcours</a>
           <a href="#contact">Contactez-moi</a>
+        </nav>
+
+        <nav class="display-nav-800">
+          <a href="#about-me"><i class="fa-solid fa-user"></i></a>
+          <a href="#projects"><i class="fa-solid fa-desktop-alt"></i></a>
+          <a href="#education"><i class="fa-solid fa-mortar-board"></i></a>
+          <a href="#contact"><i class="fa-solid fa-envelope"></i></a>
         </nav>
       </div>
     </header>
@@ -53,8 +64,8 @@
               />
             </div>
             <div>
-              <h2>De la polyvalence . . .</h2>
-              <h2>À la passion du web . . .</h2>
+              <h2>De la polyvalence ...</h2>
+              <h2>À la passion du web ...</h2>
             </div>
           </div>
 
@@ -132,7 +143,7 @@
               </div>
             </div>
 
-            <div>
+            <div class="sites-infos">
               <ul>
                 <li>
                   <div class="description">
@@ -183,8 +194,14 @@
                       <li>Inscription / connexion</li>
                       <li>Récupération de données</li>
                       <li>
-                        Réservation sur 6 salles avec décrémentation du nombre
-                        de places sur la salle sélectionnée
+                        Réservation sur 6 salles (sur 1 mois) avec :
+                        <ul class="last-ul">
+                          <li>Vérification du nombre de places disponibles</li>
+                          <li>
+                            Décrémentation du nombre de places réservées sur la
+                            salle sélectionnée
+                          </li>
+                        </ul>
                       </li>
                       <li>Paiement</li>
                       <li>Caroussel d'images</li>
@@ -297,10 +314,6 @@
             </nav>
           </div>
         </section>
-
-        <!-- <section class="test">
-         
-        </section> -->
       </div>
     </main>
     <footer>

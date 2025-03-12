@@ -1,8 +1,12 @@
 /* ---HEADER-------------- */
 
+.display-nav-800 {
+  display: none;
+}
+
 header {
   height: 200px;
-  width: 100%;
+  width: 100vw;
   background-color: var(--lavender);
   padding-top: 20px;
   position: fixed;
@@ -26,16 +30,17 @@ header > div > div:first-child {
 }
 
 header > div > div:first-child h1 {
-  text-shadow: 2px 0 5px white;
+  text-shadow: 2px 0 7px white;
   padding: 10px;
 }
 
 header a {
-  /* color: var(--purple); */
   text-decoration: none;
-  /* border: 1px solid green; */
-  background: linear-gradient(to bottom, #daa520 0%, #ffd700 100%);
-  /* background-color: #daa520; */
+  background: linear-gradient(
+    to bottom,
+    var(--dark-gold) 0%,
+    var(--light-gold) 100%
+  );
   color: white;
   font-weight: bold;
   font-family: "Akaya Kanadaka", system-ui;
@@ -44,6 +49,17 @@ header a {
   margin-top: 20px;
   margin-left: 20px;
   border-radius: 30px;
+}
+
+header a:hover {
+  scale: 1.2;
+  background: linear-gradient(to bottom, #ab7d08 0%, var(--dark-gold) 100%);
+  color: var(--purple);
+}
+
+header .my-name {
+  color: var(--purple);
+  font-weight: bold;
 }
 
 .my-name,
@@ -88,5 +104,6 @@ footer img {
 
 footer a {
   font-weight: bold;
+  font-size: 14px;
   text-decoration: none;
 }

@@ -1,0 +1,157 @@
+/* ---breakpoint-500px--------- */
+
+/* landmark--- */
+/* body,
+header {
+  background-color: rgb(252, 186, 159);
+} */
+
+/* ---General-style-------------- */
+main {
+  font-size: 14px;
+}
+.container {
+  max-width: var(--container-width-bp-500);
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+:is(h2, h3, h4) {
+  line-height: 25px;
+}
+/* ---HEADER--------------------- */
+
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+header nav {
+  flex-direction: unset;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+header a {
+  flex-shrink: 1;
+  font-size: 15px;
+  padding: 5px 10px;
+}
+
+/* header svg {
+  font-size: 10px;
+} */
+/* ---FOOTER--------------------- */
+
+.about-me .my-photo {
+  height: 200px;
+  width: 200px;
+}
+/* ---ABOUT--------------------- */
+
+.presentation {
+  padding: 20px;
+}
+
+.presentation span {
+  font-size: 14px;
+}
+/* ---PROJECTS--------------------- */
+
+.projects > div {
+  gap: 20px;
+}
+.projects h5 {
+  font-size: 16px;
+}
+
+.sites-cube {
+  padding: 20px 0 0 50px;
+}
+
+.sites-cube .cube {
+  scale: 0.5;
+}
+
+.sites-infos {
+  margin-top: var(--cube-width-bp-500);
+  padding-top: 50px;
+}
+
+.projects .sites-infos > ul > li {
+  width: calc(100% - 40px);
+  padding: 0 10px 20px 10px;
+}
+
+.projects .sites-infos > ul > li > div {
+  padding: 0;
+}
+
+.projects .description > ul > li {
+  font-size: 14px;
+}
+.projects .description .last-ul li {
+  /* margin: 5px 0 5px 20px; */
+  font-size: 13px;
+}
+/* ---EDUCATION--------------------- */
+.education {
+  padding: 0 10px 20px 10px;
+}
+.education h3 {
+  line-height: unset;
+}
+
+.education h5 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.education p {
+  font-size: 14px;
+}
+.skills {
+  flex-direction: column;
+}
+
+.logo {
+  padding-top: 20px;
+}
+.logo img {
+  height: 35px;
+}
+/* ---CONTACT--------------------- */
+
+.contact a,
+.contact p {
+  font-size: 14px;
+}
+
+.contact > div {
+  padding: 20px;
+  width: calc(100% - 40px);
+}
+
+.contact nav {
+  margin-top: unset;
+}
+/* ---CUBE--------------------- */

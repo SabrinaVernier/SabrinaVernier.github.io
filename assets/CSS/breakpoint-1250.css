@@ -1,14 +1,14 @@
 /* ---breakpoint-1250px--------- */
 
 /* landmark--- */
-body,
+/* body,
 header {
   background-color: lightseagreen;
-}
+} */
 
 /* ---General-style-------------- */
 .container {
-  width: var(--container-width-bp-1250);
+  max-width: var(--container-width-bp-1250);
 }
 
 h1 {
@@ -24,7 +24,7 @@ header nav {
   flex-wrap: wrap;
 }
 header a {
-  width: calc((100% - 40px) / 2);
+  width: calc((100% - 20px) / 2);
   flex-shrink: 0;
   text-align: center;
   margin: unset;

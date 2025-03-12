@@ -1,0 +1,73 @@
+/* ---breakpoint-1000px--------- */
+
+/* landmark--- */
+/* body,
+header {
+  background-color: lightblue;
+} */
+
+/* ---General-style-------------- */
+.container {
+  max-width: var(--container-width-bp-1000);
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+/* ---HEADER--------------------- */
+header nav {
+  gap: 30px;
+}
+header a {
+  font-size: 18px;
+  padding: 5px 10px;
+  width: calc((100% - 30px) / 2);
+}
+
+/* ---FOOTER--------------------- */
+/* ---ABOUT--------------------- */
+
+.about-me > div {
+  padding: 20px;
+}
+
+/* ---PROJECTS--------------------- */
+
+.projects > div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sites-infos {
+  margin-top: var(--cube-width);
+  padding-top: 50px;
+}
+
+.sites-cube {
+  padding-left: 300px;
+}
+/* ---EDUCATION--------------------- */
+
+.logo img {
+  height: 45px;
+}
+/* ---CONTACT--------------------- */
+
+.contact > div {
+  padding: 30px;
+}
+
+.contact h3 {
+  margin-top: 20px;
+}
+/* ---CUBE--------------------- */
