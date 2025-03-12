@@ -1,0 +1,58 @@
+/* ---section-projects---------- */
+
+.projects {
+  height: fit-content;
+  background-color: #fff;
+  padding-bottom: 10px;
+}
+
+.projects > div {
+  flex: 1;
+}
+
+.projects > div > ul {
+  padding: 10px 0;
+}
+
+.description ul {
+  list-style-type: circle;
+}
+
+.description li {
+  margin: 0 0 5px 20px;
+  font-size: 16px;
+}
+
+.description a {
+  color: var(--pink);
+}
+
+.projects h5 {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* ---------TEST------------ */
+.projects > div > ul {
+  display: flex;
+}
+
+.projects > div > div > ul > li {
+  box-shadow: 0 0 5px var(--shadow);
+  border-radius: 10px;
+  margin: 20px 20px;
+  padding: 0 40px 20px 20px;
+  width: fit-content;
+  display: flex;
+}
+
+.projects > div > ul > li > div {
+  flex: 1;
+  padding: 20px;
+}
+
+.sites-cube {
+  padding: 50px 0 0 700px;
+}

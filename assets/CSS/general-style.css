@@ -1,0 +1,75 @@
+/* ----------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* ---color--- */
+  --purple: #73295c;
+  --pink: #d1478e;
+  --light-pink: plum;
+  --lavender: lavender;
+  --blue: #42acff;
+  --dark-blue: rgb(2, 2, 138);
+  --shadow: #bbb;
+
+  /* ---container--- */
+  --container-width: 1200px;
+  --container-width-bp-1250: 1000px;
+}
+
+/* ---BODY-MAIN---------------- */
+
+body {
+  font-family: system-ui, sans-serif;
+  font-size: 14px;
+  background-color: var(--lavender);
+}
+
+main {
+  min-height: 100vh;
+  width: 100vw;
+  margin-top: 200px;
+  padding-top: 50px;
+}
+.container {
+  width: var(--container-width);
+  margin: 0 auto;
+}
+
+:is(h2, h3, h4) {
+  font-family: "Akaya Kanadaka", system-ui;
+  font-weight: bold;
+  line-height: 30px;
+}
+:is(h3, h4) {
+  color: var(--purple);
+}
+
+h1 {
+  font-family: "Style Script", cursive, sans-serif;
+  font-size: 56px;
+  color: var(--light-pink);
+  /* text-align: center;
+    padding: 30px; */
+}
+h2 {
+  font-size: 42px;
+  color: var(--lavender);
+}
+h3 {
+  font-size: 38px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+h4 {
+  font-size: 28px;
+  padding: 10px 0;
+}
+section {
+  height: 600px;
+  /* border: 1px solid green; */
+  border-radius: 10px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,43 @@
+/* ---breakpoint-1250px--------- */
+
+/* landmark--- */
+body,
+header {
+  background-color: lightseagreen;
+}
+
+/* ---General-style-------------- */
+.container {
+  width: var(--container-width-bp-1250);
+}
+
+h1 {
+  font-size: 48px;
+  letter-spacing: 1.5px;
+}
+/* ---HEADER--------------------- */
+header nav {
+  display: flex;
+  gap: 20px;
+  width: 50%;
+  height: 50%;
+  flex-wrap: wrap;
+}
+header a {
+  width: calc((100% - 40px) / 2);
+  flex-shrink: 0;
+  text-align: center;
+  margin: unset;
+}
+/* ---FOOTER--------------------- */
+/* nothing */
+/* ---ABOUT--------------------- */
+/* nothing */
+/* ---PROJECTS--------------------- */
+/* nothing */
+/* ---EDUCATION--------------------- */
+/* nothing */
+/* ---CONTACT--------------------- */
+/* nothing */
+/* ---CUBE--------------------- */
+/* nothing */

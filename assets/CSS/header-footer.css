@@ -1,0 +1,92 @@
+/* ---HEADER-------------- */
+
+header {
+  height: 200px;
+  width: 100%;
+  background-color: var(--lavender);
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+header .container {
+  height: 100%;
+}
+
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+header > div > div:first-child {
+  transform: skew(-10deg) rotate(-12deg);
+}
+
+header > div > div:first-child h1 {
+  text-shadow: 2px 0 5px white;
+  padding: 10px;
+}
+
+header a {
+  /* color: var(--purple); */
+  text-decoration: none;
+  /* border: 1px solid green; */
+  background: linear-gradient(to bottom, #daa520 0%, #ffd700 100%);
+  /* background-color: #daa520; */
+  color: white;
+  font-weight: bold;
+  font-family: "Akaya Kanadaka", system-ui;
+  font-size: 22px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+
+.my-name,
+.my-photo {
+  animation: 1s 1 alternate slide-in;
+}
+@keyframes slide-in {
+  from {
+    /* translate: 150vw 0;
+      scale: 200% 1; */
+    transform: translateX(0%);
+  }
+
+  to {
+    /* translate: 0 0;
+      scale: 100% 1; */
+    transform: translateX(100%);
+  }
+}
+
+/* ---FOOTER------------------- */
+
+footer {
+  height: 70px;
+}
+
+footer > div {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+footer img {
+  height: 30px;
+  width: 30px;
+}
+
+footer a {
+  font-weight: bold;
+  text-decoration: none;
+}

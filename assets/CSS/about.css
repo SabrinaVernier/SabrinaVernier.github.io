@@ -1,0 +1,78 @@
+/* ---section-about-me---------- */
+
+.about-me {
+  /* background-image: url("../IMGS/A-Fond-programmation-informatique-codage-dev.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left; */
+  background: linear-gradient(to left, var(--pink) 0%, var(--purple) 100%);
+  height: fit-content;
+  display: flex;
+}
+
+.about-me > div {
+  /* border: 1px solid white; */
+  flex: 1;
+  padding: 40px;
+}
+
+.about-me ul {
+  list-style-type: "\1F44D";
+  /* padding: 10px 0; */
+}
+
+.about-me li {
+  margin: 0 0 10px 20px;
+}
+
+.about-me li p {
+  color: var(--blue);
+  font-style: italic;
+  margin-left: 20px;
+}
+
+.about-me p {
+  color: var(--pink);
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.title > div {
+  align-self: center;
+}
+
+.title h2 {
+  width: 100%;
+  padding-bottom: 40px;
+  /* text-transform: uppercase; */
+}
+
+.my-photo {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: #fff;
+}
+
+.presentation {
+  height: fit-content;
+  /* width: calc(100% - 50px); */
+  width: fit-content;
+  padding: 20px 40px 40px 40px;
+  text-align: justify;
+  line-height: 20px;
+  background-color: #fff;
+  border-radius: 40px;
+}
+
+.presentation span {
+  color: var(--pink);
+  font-size: 16px;
+  font-weight: bold;
+}
