@@ -36,8 +36,13 @@
 .description .last-ul li::marker {
   color: var(--dark-gold);
 }
-.description a {
+
+.before-cube {
+  font-family: "Akaya Kanadaka", system-ui;
+  font-size: 24px;
   color: var(--pink);
+  line-height: 24px;
+  padding: 40px 20px;
 }
 
 .projects h4 {
@@ -45,6 +50,16 @@
 }
 .projects a {
   text-transform: lowercase;
+  color: var(--blue);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.projects .description span {
+  color: var(--dark-blue);
+  font-weight: bold;
+  text-decoration: underline;
 }
 .projects h5 {
   color: black;
