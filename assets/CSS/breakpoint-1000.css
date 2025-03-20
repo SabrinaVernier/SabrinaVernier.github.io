@@ -48,9 +48,23 @@ header a {
   gap: 30px;
 }
 
+#projects h4 {
+  font-size: 22px;
+}
+
 .sites-infos {
   margin-top: var(--cube-width);
   padding-top: 50px;
+}
+
+#projects .sites-infos > ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#projects .sites-infos > ul > li {
+  flex-shrink: 0;
+  width: calc((100% - 80px) / 2);
 }
 
 .sites-cube {

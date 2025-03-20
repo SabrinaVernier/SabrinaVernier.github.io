@@ -13,7 +13,9 @@
   --dark-blue: rgb(2, 2, 138);
   --light-gold: #ffd700;
   --dark-gold: #daa520;
+  --azure: #f0ffff;
   --shadow: #bbb;
+  --grey: grey;
 
   /* ---cube--- */
   --cube-width: 200px;

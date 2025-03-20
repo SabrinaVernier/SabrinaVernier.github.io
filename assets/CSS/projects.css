@@ -2,12 +2,35 @@
 
 .projects {
   height: fit-content;
-  background-color: #fff;
+  background-color: var(--azure);
   padding-bottom: 10px;
 }
 
 .projects > div {
   flex: 1;
+}
+
+.projects > div > ul {
+  display: flex;
+}
+
+.projects > div > div > ul > li {
+  box-shadow: 0 0 5px var(--shadow);
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 0 40px 20px 20px;
+  width: fit-content;
+  display: flex;
+}
+
+.projects > div > div > ul > li > div {
+  flex: 1;
+  padding: 20px;
+}
+
+.sites-cube {
+  padding: 50px 0 0 700px;
 }
 
 .projects > div > ul {
@@ -40,7 +63,8 @@
 .projects .before-cube {
   font-family: "Akaya Kanadaka", system-ui;
   font-size: 24px;
-  color: var(--pink);
+  font-weight: normal;
+  color: var(--blue);
   line-height: 24px;
   padding: 40px 20px;
 }
@@ -61,32 +85,18 @@
   font-weight: bold;
   text-decoration: underline;
 }
+
+.projects .description em {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: var(--grey);
+  font-size: 16px;
+  text-transform: lowercase;
+  font-style: italic;
+}
 .projects h5 {
   color: black;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
-}
-
-/* ---------TEST------------ */
-.projects > div > ul {
-  display: flex;
-}
-
-.projects > div > div > ul > li {
-  box-shadow: 0 0 5px var(--shadow);
-  border-radius: 10px;
-  margin: 20px;
-  padding: 0 40px 20px 20px;
-  width: fit-content;
-  display: flex;
-}
-
-.projects > div > div > ul > li > div {
-  flex: 1;
-  padding: 20px;
-}
-
-.sites-cube {
-  padding: 50px 0 0 700px;
 }

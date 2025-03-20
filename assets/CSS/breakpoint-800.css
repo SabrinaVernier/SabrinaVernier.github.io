@@ -73,6 +73,11 @@ header nav {
   padding-left: 150px;
 }
 
+#projects .sites-infos > ul > li {
+  width: calc(100% - 40px);
+  padding: 0 10px 20px 10px;
+}
+
 /* ---EDUCATION--------------------- */
 
 .education {
